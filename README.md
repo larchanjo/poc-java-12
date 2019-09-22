@@ -6,6 +6,7 @@ The Java 12 was release at 03/2019 and the main features are:
 - File mismatch method
 - Compact Number Formatting
 - Teeing Collector
+- Strings New Methods
 
 The full release notes is [here]
 

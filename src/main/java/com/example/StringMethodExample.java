@@ -1,5 +1,6 @@
 package com.example;
 
+import java.lang.invoke.MethodHandles;
 import java.util.Optional;
 import java.util.UUID;
 
@@ -14,6 +15,8 @@ public class StringMethodExample {
 
     Optional<String> optionalString = someString.describeConstable();
     System.out.println(optionalString);
+
+    System.out.println(someString.resolveConstantDesc(MethodHandles.lookup()));
   }
 
 }
